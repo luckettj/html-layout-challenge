@@ -38,6 +38,9 @@ body{
 
 #jumbotron{
 	background-image: url(img/image.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	min-height: 440px;
 }
 
 #container{
@@ -76,7 +79,6 @@ body{
 #plans > ul{
 	padding: 0;
 	margin: 0;
-	list-style-type: none;
 	width: 800px;
 	margin: 0 auto;
 }
@@ -92,6 +94,10 @@ body{
 	color: white;
 }
 
+#plans ul li ul{
+	list-style-type: none;
+}
+
 #plans ul ul{
 	padding: 0px;
 	margin: 20px 0;
@@ -99,4 +105,14 @@ body{
 
 #plans ul h3{
 	font-weight: bold;
+}
+
+#plans h3{
+	text-align: center;
+	padding: 15px;
+}
+
+#plans p{
+	text-align: center;
+	padding: 0 15px 15px 15px;
 }
