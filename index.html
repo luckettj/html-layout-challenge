@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Jukebox</title>
-	<link href="styles.css" type="text/css" rel="stylesheet"/>
+	<link href="style.css" type="text/css" rel="stylesheet"/>
 </head>
+
 <body>
+	<div id="container">
+
 	<header>
 		<a href="#">
-		<img src="img/____" alt="Jukebox Logo"/>
+		<img src="img/____" alt="Jukebox Logo" id="logo" class="clearfix"/>
 		</a>
-		<a href="#">Subscribe</a>
-		<a href="#">Login</a>
+
+		<nav class="clearfix">
+		<ul>
+			<li><a href="#" class="button button-subscribe">Subscribe</a></li>
+			<li><a href="#" class="button button-login">Login</a></li>
+		</ul>
+		</nav>
 	</header>
+
 	<div id="content">
 		<div id="jumbotron">
 			<h2>Millions of songs at your fingertips</h2>
 			<p>Play an song, anywhere, on any device.</p>
-			<a href="#">Subscribe today</a>
+			<a href="#" class="button button-subscribe" >Subscribe today</a>
 		</div>
 		<div id="plans">
 			<h3>Your music. You way.</h3>
 			<p>Upgrade to premimum and get your first 2 months free of charge!</p>
-			<ul>
+			<ul class="clearfix">
 				<li>
 					<h3>Basic</h3>
 					<h4>Free</h4>
@@ -33,34 +43,37 @@
 						<li>Up to 1 user</li>
 						<li>1 device</li>
 					</ul>
-					<a href="#">Sign Up</a>
+					<a href="#" class="button" id="button-signup">Sign Up</a>
 				</li>
 				<li>
 					<h3>Plus</h3>
 					<h4>$10/month</h4>
 					<ul>
 						<li>MP3 audio</li>
-						<li>100 songs</li>
+						<li>1000 songs</li>
 						<li>Ads every 10 minutes</li>
-						<li>Up to 1 user</li>
-						<li>1 device</li>
+						<li>Up to 3 users</li>
+						<li>3 devices</li>
 					</ul>
-					<a href="#">Sign Up</a>
+					<a href="#" class="button" id="button-signup">Sign Up</a>
 				</li>
 				<li>
 					<h3>Premium</h3>
 					<h4>$20/month</h4>
 					<ul>
 						<li>MP3 audio</li>
-						<li>100 songs</li>
+						<li>10000 songs</li>
 						<li>No ads</li>
-						<li>Up to 1 user</li>
-						<li>1 device</li>
+						<li>Up to 10 users</li>
+						<li>10 devices</li>
 					</ul>
-					<a href="#">Sign Up</a>
+					<a href="#" class="button" id="button-signup">Sign Up</a>
 				</li>
 			</ul>
 		</div>
 	</div>
+
+	</div>
 </body>
+
 </html>
