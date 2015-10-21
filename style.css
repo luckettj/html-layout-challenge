@@ -41,6 +41,13 @@ body{
 	background-repeat: no-repeat;
 	background-position: center top;
 	min-height: 440px;
+	position: relative;
+}
+
+#items{
+	position: absolute;
+	left: 200px;
+	top: 100px;
 }
 
 #container{
